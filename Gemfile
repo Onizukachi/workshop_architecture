@@ -29,6 +29,12 @@ gem 'activeadmin'
 gem 'activeadmin_addons'
 gem 'devise'
 
+# JSON Сериализатор
+gem 'alba'
+
+# Пагинация
+gem 'kaminari'
+
 group :development, :test do
   gem 'bundler-audit'
   gem 'capybara'
