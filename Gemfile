@@ -7,6 +7,10 @@ gem 'puma', '>= 6.5.0'
 gem 'pg'
 gem 'redis-actionpack' # hiredes
 
+# Mongo DB
+gem 'mongoid'
+gem 'kaminari-mongoid'
+
 # Многопоточное выполнение
 gem 'parallel'
 gem 'activerecord-import'
