@@ -9,6 +9,7 @@ gem 'redis-actionpack' # hiredes
 
 # Mongo DB
 gem 'mongoid'
+gem 'kaminari-mongoid'
 
 # Многопоточное выполнение
 gem 'parallel'

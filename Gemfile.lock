@@ -213,6 +213,9 @@ GEM
       activerecord
       kaminari-core (= 1.2.2)
     kaminari-core (1.2.2)
+    kaminari-mongoid (1.0.2)
+      kaminari-core (~> 1.0)
+      mongoid
     language_server-protocol (3.17.0.3)
     logger (1.6.0)
     loofah (2.23.1)
@@ -484,6 +487,7 @@ DEPENDENCIES
   fasterer
   ffaker
   kaminari
+  kaminari-mongoid
   mongoid
   parallel
   pg
